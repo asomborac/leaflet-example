@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+}
+
+.sideBar {
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgb(154 160 185 / 40%), 0 15px 40px rgb(166 173 201 / 20%);
+    background-color: #fff;
+    width: 24vw;
+    margin: 2vh 1vw 2vh 0.2vw;
+}
+
+.sideBarContent {
+    padding: 12px 12px;
+    height: 93.5vh;
+    overflow-y: auto;
+}
+
+.sideBarRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 18px;
+    box-shadow: 0 2px 4px rgb(154 160 185 / 40%), 0 1px 2px rgb(166 173 201 / 20%);
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sideBarRow:hover {
+    background-color: #f5f5f5;
+}
+
+.sideBarRow:active {
+    background-color: #e8e8e8;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.dialog {
+    z-index: 10000;
+    position: fixed;
+    top: 10%;
+    left: 28vw;
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(154 160 185 / 20%), 0 15px 40px rgb(166 173 201 / 10%);
+}
+
+.dialogContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+    align-items: center;
+}
+
+.input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
